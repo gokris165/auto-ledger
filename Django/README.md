@@ -1,0 +1,1 @@
+For the Django implementation of this project
