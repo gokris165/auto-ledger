@@ -1,14 +1,15 @@
-# Setup
+# Feature List
+...work in progress...<br>
+
+# Installation Guide
 
 You'll need to have Python installed for this project. This project has been
 tested on **Windows 10** and **Python version 3.12.1**, it may or may not work on older versions of python.
 
-First unzip/decompress the .tar.gz file. There should be 8 files in it, 
-including a **setup.sh** bash script. <br>
 Run "setup.sh" from the command line with the following command(on Windows with Git Bash): `source setup.sh <path-to-your-python.exe>`. <br>
-For example: `source setup.sh C:/dev/Python/python.exe`. The linux equivalent command should be similar as well. <br>
+For example: `source setup.sh C:/dev/Python/python.exe`. <br>
 The script will automatically create and start a virtual envinroment, and download the necessary dependencies. 
-We just need to start the server after the setup script finishes with: `uvicorn main:app`.
+We just need to start the server after the setup script finishes with: `uvicorn main:app` inside the src directory.
 
 If the setup script doesn't work then go through the following steps for a manual setup:
 
@@ -24,8 +25,9 @@ If the setup script doesn't work then go through the following steps for a manua
 3. Install necessary dependencies with  `pip install -r requirements.txt`
 4. Run the app from the terminal with `uvicorn main:app`
 
-Once the app is running, you can run the test script with: `sh test.sh`.
+Once the app is running, you can run the test script with: `sh test.sh` inside the tests directory.
 
+<!--
 # Solution Context and Assumptions
 
 Context: Given a .csv file with valid data, generate expense/income report. Use curl to access endpoints 
@@ -77,3 +79,5 @@ exploit from before was run
 - Add multi-user support, support multiple users uploading their .csv files 
 and getting their corresponding report instead of the latest report based on the latest transaction.csv file
 - Think/implement more test cases to make sure everything works as intended
+
+-->
