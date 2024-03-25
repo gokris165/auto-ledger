@@ -15,8 +15,8 @@ Here's what the example data looks like:
 # Project Objectives
 
 This is a mono repo with 3 different implementations of the same project. 
-The inspiration for this project is to try out different Python Web Frameworks 
-as well as different Frontend Frameworks, and see their differences. The app 
+The inspiration for this project is to try out different **Python Web Frameworks** 
+as well as different **Frontend Frameworks**, and see their differences. The app 
 will be runnable through the terminal as well as have a frontend browser component. 
 
 Here are the main objectives of this project ordered by priority:
