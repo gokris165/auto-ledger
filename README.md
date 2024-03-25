@@ -30,6 +30,8 @@ The goal of this project is to get hands on experience with all the different
 technologies specified. 
 
 # Structure
+
+
 <table>
     <tr>
         <th>Directory</th>
@@ -40,19 +42,38 @@ technologies specified.
     <tr>
         <th>./Django/</th>
         <th>Django</th>
-        <th>TBD</th>
-        <th>TBD</th>
+        <th>Vue</th>
+        <th>Material</th>
     </tr>
     <tr>
         <th>./FastAPI/</th>
         <th>FastAPI</th>
-        <th>TBD</th>
-        <th>TBD</th>
+        <th>Angular</th>
+        <th>Tailwind + DaisyUI</th>
     </tr>
     <tr>
         <th>./Flask/</th>
         <th>Flask</th>
-        <th>TBD</th>
-        <th>TBD</th>
+        <th>React</th>
+        <th>Bootstrap</th>
+    </tr>
+</table>
+<br>
+
+<table>
+    <tr>
+        <th>-</th>
+        <th>Backend</th>
+        <th>Frontend</th>
+    </tr>
+    <tr>
+        <th>Language</th>
+        <th>Python</th>
+        <th>TypeScript</th>
+    </tr>
+    <tr>
+        <th>Formatter</th>
+        <th>Ruff</th>
+        <th>Prettier</th>
     </tr>
 </table>
